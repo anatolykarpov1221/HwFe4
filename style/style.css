@@ -2,7 +2,7 @@
     height: 800px;
     border: 2px solid black;
     background-color: #38ADA9;
-    margin: 50px 50px;
+    margin: 50px 50px
 }
 .page #main-info{
     height: 600px;
@@ -48,18 +48,17 @@
     flex-direction:row;
     align-items:stretch; 
     margin-left: 40px;
-    margin-top: 30px;
-    border: 2px solid black;
-    width: 340px; 
-    background-color: rgb(219, 219, 248);
 }
-/* #main-info #link2{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-   margin-left: 220px;
-   margin-bottom: 90px;
-    border: 2px solid black;
-    width: 160px;
-    background-color: rgb(219, 219, 248); */
- 
+#main-info #link1 #intro{
+    color: #f6b93b;
+    background-color:#1E3799 ;
+    border-radius: 10px;
+    object-fit: contain;
+}
+#main-info #link1 #intro1{
+    color: #f6b93b;
+    background-color:#1E3799 ;
+    border-radius: 10px;
+    margin-left: 40px;
+    object-fit: fill;
+}
